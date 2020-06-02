@@ -1,4 +1,4 @@
-rootProject.name = 'demo'
+rootProject.name = 'scheduler-structure'
 
 include 'payment'
 include 'cancel'
