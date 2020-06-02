@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testdb?characterEncoding=UTF-8
+    username: root
+    password: secret
+    initialization-mode: never
+
+mybatis:
+  mapper-locations: classpath*:/com/example/infrastructure/datasource/**/*Mapper.xml
